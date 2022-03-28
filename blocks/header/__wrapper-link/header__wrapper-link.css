@@ -1,0 +1,9 @@
+.header__wrapper-link {
+  display: flex;
+  gap: 18px;
+  padding-top: 15px;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
+}

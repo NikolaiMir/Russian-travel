@@ -1,0 +1,28 @@
+.intro {
+  max-width: 984px;
+  margin: 92px auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 768px;
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 320px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}
