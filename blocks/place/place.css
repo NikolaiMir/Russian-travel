@@ -19,7 +19,6 @@
 
 @media (max-width: 320px) {
   .place {
-    margin-bottom: 0;
     grid-template: repeat(4, auto) / repeat(1, 1fr);
     gap: 32px;
     margin-bottom: 50px;

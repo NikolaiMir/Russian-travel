@@ -19,7 +19,7 @@
 @media (max-width: 768px) {
   .gallery {
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
-    max-width: 768px;
+    max-width: 720px;
     margin-bottom: 88px;
   }
 }
@@ -27,7 +27,7 @@
 @media (max-width: 320px) {
   .gallery {
     grid-template: repeat(12, 1fr) / repeat(1, 1fr);
-    max-width: 320px;
+    max-width: 300px;
     gap: 12px;
     margin-bottom: 64px;
   }

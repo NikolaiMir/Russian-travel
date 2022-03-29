@@ -17,9 +17,15 @@
   }
 }
 
+@media (max-width: 550px) {
+  .footer {
+    display: block;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
-    max-width: 320px;
+    max-width: 300px;
     display: block;
   }
 }

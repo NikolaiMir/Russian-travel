@@ -2,8 +2,14 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
-  width: 50%;
+  max-width: 720px;
   margin: 0 auto 32px;
+}
+
+@media (max-width: 550px) {
+  .lead__title {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 320px) {
