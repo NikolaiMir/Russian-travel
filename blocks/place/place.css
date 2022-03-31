@@ -4,6 +4,7 @@
   gap: 48px 40px;
   box-sizing: border-box;
   margin: 0 0 80px;
+  padding: 0 20px;
 }
 
 .place:last-child {
@@ -14,6 +15,13 @@
   .place {
     margin-bottom: 73px;
     column-gap: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  .place {
+    grid-template: repeat(4, auto) / repeat(1, 1fr);
+    gap: 32px;
   }
 }
 

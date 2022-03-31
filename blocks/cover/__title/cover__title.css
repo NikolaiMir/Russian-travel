@@ -2,14 +2,24 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-  margin: 0;
+  font-weight: 900;
+  margin: 0 0 32px;
   max-width: 560px;
   color: #ffff;
+}
+
+@media (max-width: 500px) {
+  .cover__title {
+    font-size: 45px;
+    line-height: 1.09;
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
+    margin-bottom: 16px;
   }
 }
