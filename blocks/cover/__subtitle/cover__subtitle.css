@@ -5,6 +5,7 @@
   max-width: 360px;
   text-align: center;
   color: #ffff;
+  z-index: 2;
 }
 
 @media (max-width: 320px) {

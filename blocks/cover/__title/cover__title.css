@@ -6,6 +6,7 @@
   margin: 0 0 32px;
   max-width: 560px;
   color: #ffff;
+  z-index: 1;
 }
 
 @media (max-width: 500px) {

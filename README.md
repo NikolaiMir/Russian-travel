@@ -19,6 +19,6 @@
 - Разработка интерфейса для разных устройств.
 
 Ссылка проекта на GitHub:
-[GitHub Pages.]()
+[GitHub Pages.](https://nikolaimir.github.io/Russian-travel/)
 
 В проекте использовал нормализатор стилей — **normalize.css**.
