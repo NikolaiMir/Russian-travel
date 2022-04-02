@@ -1,10 +1,10 @@
 .place {
   display: grid;
   grid-template: 1fr max-content / 1fr 1fr;
-  gap: 48px 40px;
+  row-gap: 48px;
+  column-gap: 20px;
   box-sizing: border-box;
   margin: 0 0 80px;
-  padding: 0 20px;
 }
 
 .place:last-child {
@@ -13,12 +13,19 @@
 
 @media (max-width: 768px) {
   .place {
+    row-gap: 42px;
     margin-bottom: 73px;
-    column-gap: 28px;
+    column-gap: 19px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 740px) {
+  .place {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
   .place {
     grid-template: repeat(4, auto) / repeat(1, 1fr);
     gap: 32px;
@@ -27,8 +34,7 @@
 
 @media (max-width: 320px) {
   .place {
-    grid-template: repeat(4, auto) / repeat(1, 1fr);
-    gap: 32px;
     margin-bottom: 50px;
+    padding: 0;
   }
 }
